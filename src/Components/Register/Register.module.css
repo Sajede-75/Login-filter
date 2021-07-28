@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgba(14, 59, 72, 0.83) ,#FFF);
+    height: 100vh;
+   
+}
+.BaseLog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogForm{
+    overflow: auto;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px; 
+    width: 40vw;  
+    height: 70vh;
+    border: 2px solid rgb(11, 14, 15);
+    box-sizing: border-box;
+    box-shadow: 5px 8px 3px rgb(55, 92, 116);
+}
+.title{
+    box-sizing: content-box;
+    text-align: center;   
+    font-size: 30px;
+    color: rgba(14, 59, 72,1);
+    margin-top: 55px;
+}
+.inputs{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 25vw;
+    height: 35vh;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: -2px 2px rgba(150, 182, 190, 0.5) inset;
+}
+span{
+    display: inline-block;
+}
+.name ,.pass {
+    overflow: hidden;
+    font-size: large;
+    float: left;
+    margin: 5px;
+    color: rgba(14, 59, 72, 0.83);
+    font-weight: bold;
+}
+.info{
+    width: 82%;
+    height: 5vh;
+    background-color: #b2bbbe;
+    border: none;
+    border-radius:5px;
+    padding:5px;
+    font-size: 14px;
+}
+.info:focus{
+    background-color: #d3d3d3;
+}
+#btnLogin{
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    height: 5vh;
+    background-color: rgb(30, 62, 66);
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+}
+#btnLogin:hover{
+    transform: scale(1.1);
+    font-size: 16px;
+}

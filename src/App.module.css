@@ -1,0 +1,18 @@
+.App{
+    justify-content: center;
+    padding: 50px;
+}
+.btnLogout{
+    border: none;
+    border-radius: 5px;
+    width: 5%;
+    background-color: rgb(30, 62, 66);
+    color: white;
+    margin-top: 15px;
+    font-size:14px;
+    padding: 5px;
+}
+.btnLogout:hover{
+    transform: scale(1.1);
+    font-size: 16px;
+}
